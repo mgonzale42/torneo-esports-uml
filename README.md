@@ -108,7 +108,7 @@ or
         Solicitan a la organización el estado de un torneo.
     ```
 
-• Casos de uso:
+• Casos de uso:    
     - Gestión de equipos:
         Actores implicados:
             Organización.
@@ -117,8 +117,7 @@ or
             La organización puede aceptar o rechazar la inscripción de un equipo a un torneo.
             Un equipo puede apuntarse a un torneo.
             Un equipo puede aceptar, rechazar o expulsar a un jugador de su plantilla.
-
-
+    
     - Gestión de jugadores:
         Actores implicados:
             Organización.
