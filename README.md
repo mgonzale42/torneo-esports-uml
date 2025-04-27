@@ -20,18 +20,19 @@ utilizando UML para el modelado y Java para la implementación.
 
 ## Estructura del Proyecto
 
-torneo-esports-uml/ ├── src/
-│ ├── es/empresa/torneo/
-│ │ ├── modelo/
-│ │ ├── control/
-│ │ ├── vista/
-│ │ ├── Main.java
-├── diagrams/
-│ ├── casos-uso.png
-│ ├── clases.png
-├── README.md
-├── .gitignore
-├── LICENSE (opcional)
+torneo-esports-uml/
+├── src/ # Código fuente
+│ ├── es/empresa/torneo/ # Paquete base del proyecto
+│ │ ├── modelo/ # Clases de entidad
+│ │ ├── control/ # Clases de control
+│ │ ├── vista/ # Clases de interfaz (UI o consola)
+│ │ ├── Main.java # Punto de entrada del programa
+├── diagrams/ # Diagramas UML
+│ ├── casos-uso.png # Diagrama de casos de uso
+│ ├── clases.png # Diagrama de clases
+├── README.md # Documentación del proyecto
+├── .gitignore # Ignorar archivos innecesarios
+├── LICENSE (opcional) # Licencia del proyecto
 
 ## Instalación y Ejecución
 1. Clonar el repositorio:
