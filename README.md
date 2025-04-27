@@ -19,7 +19,7 @@ utilizando UML para el modelado y Java para la implementación.
 ![Diagrama de clases](diagrams/clases.png)
 
 ## Estructura del Proyecto
-``
+```
 torneo-esports-uml/
 ├── src/ # Código fuente
 │ ├── es/empresa/torneo/ # Paquete base del proyecto
