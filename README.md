@@ -34,6 +34,23 @@ torneo-esports-uml/
 ├── .gitignore # Ignorar archivos innecesarios
 ├── LICENSE (opcional) # Licencia del proyecto
 
+or
+
+├── src/
+│   └── es/
+│       └── empresa/
+│           └── torneo/
+│               ├── modelo/
+│               ├── control/
+│               ├── vista/
+│               └── Main.java
+├── diagrams/
+│   ├── casos-uso.png
+│   └── clases.png
+├── README.md
+├── .gitignore
+└── LICENSE (opcional)
+
 ## Instalación y Ejecución
 1. Clonar el repositorio:
 `git clone https://github.com/mgonzale42/torneo-esports-uml.git`
