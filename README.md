@@ -19,21 +19,21 @@ utilizando UML para el modelado y Java para la implementación.
 ![Diagrama de clases](diagrams/clases.png)
 
 ## Estructura del Proyecto
-
+'''
 torneo-esports-uml/
- ├── src/ # Código fuente
- │ ├── es/empresa/torneo/ # Paquete base del proyecto
- │ │ ├── modelo/ # Clases de entidad
- │ │ ├── control/ # Clases de control
- │ │ ├── vista/ # Clases de interfaz (UI o consola)
- │ │ ├── Main.java # Punto de entrada del programa
- ├── diagrams/ # Diagramas UML
- │ ├── casos-uso.png # Diagrama de casos de uso
- │ ├── clases.png # Diagrama de clases
- ├── README.md # Documentación del proyecto
- ├── .gitignore # Ignorar archivos innecesarios
- ├── LICENSE (opcional) # Licencia del proyecto
-
+├── src/ # Código fuente
+│ ├── es/empresa/torneo/ # Paquete base del proyecto
+│ │ ├── modelo/ # Clases de entidad
+│ │ ├── control/ # Clases de control
+│ │ ├── vista/ # Clases de interfaz (UI o consola)
+│ │ ├── Main.java # Punto de entrada del programa
+├── diagrams/ # Diagramas UML
+│ ├── casos-uso.png # Diagrama de casos de uso
+│ ├── clases.png # Diagrama de clases
+├── README.md # Documentación del proyecto
+├── .gitignore # Ignorar archivos innecesarios
+├── LICENSE (opcional) # Licencia del proyecto
+'''
 or
 
 ├── src/
