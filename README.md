@@ -131,4 +131,5 @@ or
             Un jugador puede consultar el estado de un torneo.
 
 ## Conclusiones
-Sobre el aprendizaje obtenido.
+Dedicar tiempo a pequeños pasos como los diagramas ayuda primero a visualizar lo que pensamos, segundo a definir los requerimientos de nuestro proyecto y tercero a ver cuales son los siguientes pasos que tenemos que realizar, que contenido tienen que tener(clases con sus atributos y metodos) y que relación tienen con otras clases para ver las dependencias.
+Creo que este proyecto ayuda mucho para establecer una metodología de trabajo muy necesaria.
