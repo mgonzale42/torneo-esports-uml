@@ -19,7 +19,7 @@ utilizando UML para el modelado y Java para la implementación.
 ![Diagrama de clases](diagrams/clases.png)
 
 ## Estructura del Proyecto
-'''
+``
 torneo-esports-uml/
 ├── src/ # Código fuente
 │ ├── es/empresa/torneo/ # Paquete base del proyecto
@@ -33,9 +33,9 @@ torneo-esports-uml/
 ├── README.md # Documentación del proyecto
 ├── .gitignore # Ignorar archivos innecesarios
 ├── LICENSE (opcional) # Licencia del proyecto
-'''
+```
 or
-
+```
 ├── src/
 │   └── es/
 │       └── empresa/
@@ -50,6 +50,7 @@ or
 ├── README.md
 ├── .gitignore
 └── LICENSE (opcional)
+```
 
 ## Instalación y Ejecución
 1. Clonar el repositorio:
