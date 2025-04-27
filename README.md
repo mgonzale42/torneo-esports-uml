@@ -60,38 +60,53 @@ or
 `cd src javac es/empresa/torneo/Main.java java es.empresa.torneo.Main`
 
 ## Justificación del diseño
+
 • ¿Quiénes son los actores que interactúan con el sistema?
+    ```
     Organización.
     Equipos.
     Jugadores.
+    ```
+
 • ¿Cuáles son las acciones que cada actor puede realizar?	
+    ```
     Organización:
         Crear torneos.
         Aceptar inscripciones de equipos a torneos.
         Gestiona torneos (crea emparejamientos, publica resultados).
         Sancionar Jugadores.
+    ```
+    ```
     Equipos:
         Aceptar/expulsar jugadores.
         Apuntarse a torneos.
         Solicitar nuevo torneo.
         Consultar el estado de los torneos.
+    ```
+    ```
     Jugadores
         Solicitud para entrar a un equipo.
         Consultar el estado de los torneos.
-
+    ```
 
 • ¿Cómo se relacionan entre sí las entidades del sistema?
+    ```
     Organización:
         Gestiona los torneos, cada torneo tendrá que tener 2 o más equipos para poder comenzar.
         Sanciona jugadores.
         Gestiona torneos puede no permitir jugar a equipos por tener jugadores sancionados.
+    ```
+    ```
     Equipos:
         Se apuntan a torneos de la organización.
         Solicitan torneos a la organización.
         Acepta, rechaza o expulsa jugadores.
+    ```
+    ```
     Jugadores:
         Solicitan participar a los equipos.
         Solicitan a la organización el estado de un torneo.
+    ```
 
 • Casos de uso:
     - Gestión de equipos:
